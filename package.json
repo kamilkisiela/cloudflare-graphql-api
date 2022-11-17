@@ -1,0 +1,14 @@
+{
+  "name": "cloudflare-graphql-api",
+  "version": "1.0.0",
+  "private": true,
+  "license": "MIT",
+  "scripts": {
+    "dev": "mesh dev"
+  },
+  "dependencies": {
+    "@graphql-mesh/cli": "^0.79.4",
+    "@graphql-mesh/openapi": "^0.33.35",
+    "graphql": "^16.6.0"
+  }
+}

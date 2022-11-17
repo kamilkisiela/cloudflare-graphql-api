@@ -1,0 +1,5 @@
+sources:
+  - name: CloudflareAPI
+    handler:
+      openapi:
+        source: https://raw.githubusercontent.com/cloudflare/api-schemas/main/openapi.yaml
