@@ -19,5 +19,6 @@
 		"forceConsistentCasingInFileNames": true,
 		"strict": true,
 		"skipLibCheck": true
-	}
+	},
+	"files": ["src/index.ts"]
 }

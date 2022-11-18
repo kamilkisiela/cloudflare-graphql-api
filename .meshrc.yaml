@@ -2,4 +2,15 @@ sources:
   - name: CloudflareAPI
     handler:
       openapi:
-        source: https://raw.githubusercontent.com/cloudflare/api-schemas/main/openapi.yaml
+        source: https://gist.githubusercontent.com/ardatan/c3994d34b0742edf25cecf50d0d23d24/raw/8a339a41b6463ad9295b12f11defeff4be1b08e9/cf.graphql
+        # source: openapi.json
+
+plugins:
+  - responseCache:
+      ttlPerCoordinate:
+        - coordinate: Query.*
+          ttl: 3600
+
+cache:
+  cfwKv:
+    namespace: MESH

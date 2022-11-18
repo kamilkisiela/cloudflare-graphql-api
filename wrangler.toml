@@ -1,3 +1,10 @@
-name = "cloudflare-graphql-api"
+name = "cf-graphql"
 main = "src/index.ts"
-compatibility_date = "2022-11-17"
+compatibility_date = "2022-06-27"
+account_id = "6d5bc18cd8d13babe7ed321adba3d8ae"
+kv_namespaces = [
+  { binding = "MESH", id = "51bc36d37fd242bb8bf103b0a4a8066d", preview_id = "676824ee9b1d4b68bb361f4eeac5dd5a" }
+]
+
+[build]
+command = "mesh build"
