@@ -9,10 +9,10 @@
     "deploy": "wrangler publish"
   },
   "dependencies": {
-    "@graphql-mesh/cli": "0.79.6-alpha-20221118160505-df0461941",
-    "@graphql-mesh/openapi": "0.33.37-alpha-20221118160505-df0461941",
-    "@graphql-mesh/plugin-response-cache": "0.1.50-alpha-20221118160505-df0461941",
-    "@graphql-mesh/cache-cfw-kv": "0.0.48-alpha-20221118160505-df0461941",
+    "@graphql-mesh/cli": "0.79.6-alpha-20221120103252-669a70a42",
+    "@graphql-mesh/openapi": "0.33.37-alpha-20221120103252-669a70a42",
+    "@graphql-mesh/plugin-response-cache": "0.1.50-alpha-20221120103252-669a70a42",
+    "@graphql-mesh/cache-cfw-kv": "0.0.48-alpha-20221120103252-669a70a42",
     "graphql": "^16.6.0",
     "tslib": "^2.4.1"
   },

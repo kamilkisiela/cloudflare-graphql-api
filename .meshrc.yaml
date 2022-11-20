@@ -2,8 +2,9 @@ sources:
   - name: CloudflareAPI
     handler:
       openapi:
-        source: https://gist.githubusercontent.com/ardatan/c3994d34b0742edf25cecf50d0d23d24/raw/8a339a41b6463ad9295b12f11defeff4be1b08e9/cf.graphql
-        # source: openapi.json
+        source: openapi.json
+        operationHeaders: 
+          Authorization: "{context.headers.authorization}"
 
 plugins:
   - responseCache:
@@ -14,3 +15,4 @@ plugins:
 cache:
   cfwKv:
     namespace: MESH
+
