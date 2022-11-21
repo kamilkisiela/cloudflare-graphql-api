@@ -17502,17 +17502,7 @@
         "enum": ["on", "off"],
         "type": "string"
       },
-      "response_collection": {
-        "allOf": [
-          { "$ref": "#/components/schemas/api-response-collection" },
-          {
-            "properties": {
-              "result": { "items": { "type": "object" }, "type": "array" }
-            },
-            "type": "object"
-          }
-        ]
-      },
+      "response_collection": { "$ref": "#/components/schemas/api-response-collection" },
       "response_create": {
         "allOf": [
           { "$ref": "#/components/schemas/api-response-single" },

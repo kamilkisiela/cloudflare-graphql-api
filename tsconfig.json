@@ -20,5 +20,5 @@
 		"strict": true,
 		"skipLibCheck": true
 	},
-	"files": ["src/index.ts"]
+	"files": ["index.ts"]
 }

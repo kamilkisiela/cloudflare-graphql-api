@@ -5,9 +5,12 @@ sources:
         source: openapi.json
         operationHeaders: 
           Authorization: "{context.headers.authorization}"
+          X-Auth-Email: "{context.headers['x-auth-email']}"
+          X-Auth-Key: "{context.headers['x-auth-key']}"
 
 plugins:
   - responseCache:
+      sessionId: "{context.headers.authorization}-{context.headers['x-auth-email']}-{context.headers['x-auth-key']}"
       ttlPerCoordinate:
         - coordinate: Query.*
           ttl: 3600
