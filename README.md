@@ -2,6 +2,8 @@
 
 [GraphQL Mesh](https://the-guild.dev/graphql/mesh) converts [OpenAPI schema](https://github.com/cloudflare/api-schemas) to GraphQL schema.
 
+Preview [https://cf-graphql.theguild.workers.dev/](https://cf-graphql.theguild.workers.dev/)
+
 It uses;
 
 - [GraphQL Mesh's OpenAPI Handler](https://the-guild.dev/graphql/mesh/docs/handlers/openapi) to convert OAS to GraphQL
